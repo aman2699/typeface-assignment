@@ -1,0 +1,26 @@
+@import-normalize;
+
+
+#root{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+
+html, body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  background: #fff;
+  overflow: hidden;
+  font: normal 14px 'Roboto', sans-serif;
+}
+.app {
+  height: 100%;
+  text-shadow: 0.2px 0 #000;
+  font: normal 14px 'Roboto', sans-serif;
+  background: #000;
+  -webkit-tap-highlight-color: transparent;
+}
